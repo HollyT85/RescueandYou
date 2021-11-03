@@ -2,3 +2,15 @@
     margin:0;
     padding:0;
 }
+
+#header {
+    background-color: lightslategray;
+}
+
+#title {
+    font-family: 'Reenie Beanie', italic;
+}
+
+#sub-head {
+    font-family: 'Varela Round', sans-serif;
+}
