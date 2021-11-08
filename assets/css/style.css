@@ -3,8 +3,10 @@
     padding:0;
 }
 
+/*header*/
+
 #header {
-    background-color: lightslategray;
+    background-color:#1f2833;
 }
 
 #header img {
@@ -21,7 +23,7 @@
     font-weight: bold;
     text-align: left;
     position: relative;
-    color: whitesmoke;
+    color: #fffef2;
 }
 
 #sub-head {
@@ -30,9 +32,49 @@
     font-weight: bold;
     text-align: center;
     position: relative;
-    color:thistle;
+    color: #fffdd0;
     padding-bottom: 10px;
 }
+
+.navigation {
+    background-color: #af69ef;
+}
+
+.text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    color:#1f2833;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.text:hover {
+    color:#fffdd0;
+}
+
+@media(max-width:640px) {
+    .headimage {
+        display:none;
+    }
+}
+
+@media(max-width:640px) {
+    #title {
+        font-size: 100px;
+        text-align: center;
+    }
+}
+
+@media(max-width:640px) {
+    #sub-head {
+        font-size: 30px;
+    }
+}
+
+
+/*main*/
 
 .are-you {
     font-family: 'Varela Round', sans-serif;
@@ -53,4 +95,26 @@
     font-size: 30px;
 }
 
+/*footer*/
 
+#footer {
+    background-color: #1f2833;
+    color:#fffef2;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.rescue-type {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rescue-info {
+    font-size:15px;
+    text-align: center;
+}
+
+.footer-logo i {
+    color:#fffef2;
+    text-align: center;
+}
