@@ -9,12 +9,12 @@
     background-color:#1f2833;
 }
 
-#header img {
+.headimage {
     float: left;
-    width:170px;
-    height:170px;
-    margin-top: 30px;
-    margin-left: 30px;
+    width:150px;
+    height:150px;
+    margin-top: 40px;
+    margin-right: 20px;
 }
 
 #title {
@@ -36,22 +36,22 @@
     padding-bottom: 10px;
 }
 
+/*navbar*/
+
 .navigation {
     background-color: #af69ef;
 }
 
 .text {
     font-family: 'Varela Round', sans-serif;
-    font-size: 20px;
-    margin-left: 20px;
-    padding: 20px;
-    color:#1f2833;
+    font-size: 18px;
+    color: #fffef2;
     text-decoration: none;
     vertical-align: center;
 }
 
-.text:hover {
-    color:#fffdd0;
+.active, .text:hover {
+    color:#1f2833;
 }
 
 @media(max-width:640px) {
@@ -156,5 +156,11 @@
 @media(max-width:640px) {
     .rescue-type {
         font-size: 15px;
+    }
+}
+
+@media(max-width:640px) {
+    br {
+        display: none;
     }
 }
