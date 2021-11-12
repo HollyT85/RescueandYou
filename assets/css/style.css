@@ -152,7 +152,7 @@
 }
 
 .here {
-    text-decoration: none;
+    text-decoration: underline;
     color: #f2e3f3;
 }
 
@@ -170,12 +170,12 @@
 
 #footer {
     background-color: #251425;
-    min-height: 300px;
+    height: 300px;
 }
 
 .guinea {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 100%;
     width: 100%;
     background: url("/assets/images/guineapigs1.jpg") no-repeat;
@@ -184,7 +184,7 @@
 
 .husky {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 100%;
     width: 100%;
     background: url("/assets/images/husky1.jpg") no-repeat;
@@ -193,7 +193,7 @@
 
 .turkey {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 100%;
     width: 100%;
     background: url("/assets/images/turkey1.jpg") no-repeat;
@@ -231,25 +231,19 @@
 }
 
 @media(max-width:640px) {
-    .rescue-info{
+    .rescue-info, br{
         display:none;
     }
 }
 
 @media(max-width:640px) {
     #footer{
-        height: 150px;
+        height: 100px;
     }
 }
 
 @media(max-width:640px) {
     .rescue-type {
         font-size: 15px;
-    }
-}
-
-@media(max-width:640px) {
-    br {
-        display: none;
     }
 }
