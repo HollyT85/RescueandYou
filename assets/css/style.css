@@ -87,11 +87,6 @@
     border-radius: 50%;
 }
 
-.box {
-    background-color: #1f2833;
-    border-radius: 100px;
-    list-style-type: none;
-}
 
 .title {
     font-family: 'Reenie Beanie', italic;
@@ -102,21 +97,27 @@
     color: #1f2833;
 }
 
-.sub-head {
-    font-family: 'Varela Round', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    color:#fffdd0;
+.circle-container{
+    background-color: #1f2833;
+    border-radius: 50%;
+    height:150px;
+    width: 150px;
     text-align: center;
-    padding: 5px;
+    color: #fffdd0;
+    font-weight: bold;
+    font-size: relative-size;
+    line-height: 150px;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-.description {
-    font-family: 'Varela Round', sans-serif;
-    position: relative;
-    color:#fffef2;
+.yes {
+    font-family: 'Reenie Beanie', italic;
     text-align: center;
-    padding: 5px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .did-you-know {
@@ -131,6 +132,12 @@
     border-radius: 50%;
     height: 500px;
     width: 500px;
+}
+
+@media(max-width:640px) {
+    .dog, .rat {
+        display: none;
+    }
 }
 
 /*footer*/
