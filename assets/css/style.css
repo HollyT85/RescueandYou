@@ -74,8 +74,64 @@
 }
 
 
-/*main*/
+/*index.html*/
 
+.are-you {
+    background-color: #fffdd0;
+}
+
+.dog {
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+
+.box {
+    background-color: #1f2833;
+    border-radius: 100px;
+    list-style-type: none;
+}
+
+.title {
+    font-family: 'Reenie Beanie', italic;
+    font-size:130px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: #1f2833;
+}
+
+.sub-head {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:#fffdd0;
+    text-align: center;
+    padding: 5px;
+}
+
+.description {
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    color:#fffef2;
+    text-align: center;
+    padding: 5px;
+}
+
+.did-you-know {
+    background-color: #fffef2;
+    position: relative;
+}
+
+.rat {
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
 
 /*footer*/
 
