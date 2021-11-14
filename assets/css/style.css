@@ -72,6 +72,7 @@
 
 /*index.html*/
 
+/*top half*/
 .are-you {
     background-color: #f2e3f3;
 }
@@ -133,6 +134,8 @@
     color: #251425;
 }
 
+/*bottom half */
+
 .did-you-know {
     background-color: #af69ef;
     padding: 0;
@@ -152,8 +155,8 @@
     font-size:6em;
     font-weight: bold;
     text-align: center;
-    position: relative;
     color: #251425;
+    margin-top: 20px;
 }
 
 .did-you {
@@ -167,6 +170,10 @@
 
 .list {
     margin-bottom: 20px;
+}
+.list i {
+    margin: 5px;
+    color: #251425;
 }
 
 .more {
