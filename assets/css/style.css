@@ -185,53 +185,60 @@
 
 #footer {
     background-color: #251425;
-    height: 300px;
 }
 
-.guinea {
-    display: inline-block;
-    margin-top: 20px;
-    height: 100%;
-    width: 100%;
-    background: url("/assets/images/guineapigs1.jpg") no-repeat;
-    background-size: contain;
+.box {
+    position: relative;
+    text-align: center;
 }
 
-.husky {
-    display: inline-block;
-    margin-top: 20px;
+.guinea img {
+    margin: 10px 1px;
     height: 100%;
     width: 100%;
-    background: url("/assets/images/husky1.jpg") no-repeat;
-    background-size: contain;
+    padding: 0;
 }
 
-.turkey {
-    display: inline-block;
-    margin-top: 20px;
+.husky img {
+    margin:10px 1px;
     height: 100%;
     width: 100%;
-    background: url("/assets/images/turkey1.jpg") no-repeat;
-    background-size: contain;
+}
+
+.turkey img{
+    margin:10px 1px;
+    height: 100%;
+    width: 100%;
 }
 
 .rescue-type {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Varela Round', sans-serif;
+    color:#f2e3f3;
+    font-size: 2vw;
     font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    color: #f2e3f3;
 }
 
 .rescue-info {
-    font-size:15px;
-    text-align: center;
-    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1em;
     color: #f2e3f3;
-    margin: 10px;
 }
 
 .footer-logo {
-    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1em;
     color: #f2e3f3;
 }
 
@@ -251,14 +258,8 @@
     }
 }
 
-@media(max-width:640px) {
-    #footer{
-        height: 100px;
-    }
-}
-
-@media(max-width:640px) {
-    .rescue-type {
-        font-size: 15px;
+@media(max-width:640px){
+    .hide{
+        display: none;
     }
 }
