@@ -7,6 +7,7 @@
 
 #header {
     background-color:#251425;
+    border-bottom: dotted;
 }
 
 .headimage {
@@ -32,7 +33,7 @@
     font-weight: bold;
     text-align: center;
     position: relative;
-    color: #f2e3f3;
+    color: #eecff0;
     padding-bottom: 10px;
 }
 
@@ -137,7 +138,7 @@
 /*bottom half */
 
 .did-you-know {
-    background-color: #af69ef;
+    background-color: #eecff0;;
     padding: 0;
     margin: 0;
 }
@@ -162,7 +163,7 @@
 .did-you {
     font-family: 'Varela Round', sans-serif;
     list-style-type: none;
-    color:#f2e3f3;
+    color:#af69ef;
     text-align: center;
     font-size: 1em;
     font-weight: bold;
@@ -190,7 +191,7 @@
 }
 
 .here:hover {
-    color: #f2e3f3;
+    color: #af69ef;
 }
 
 @media(max-width:640px) {
@@ -202,12 +203,12 @@
 /*stories*/
 
 .stories {
-    background-color: #f2e3f3;
+    background-color: #eecff0;
 }
 
 .carousel-images {
-    padding: 0 400px;
-    margin-bottom: 20px;
+    padding:0 400px;
+    margin: 50px 0;
 }
 
 .sub-head {
@@ -227,10 +228,13 @@
 
 @media(max-width:640px) {
    .carousel-images{
-        padding: 0;
+        display: none;
     }
 }
 
+.success-stories {
+    background-color: #f2e3f3;
+}
 
 /*footer*/
 
