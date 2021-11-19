@@ -258,6 +258,7 @@
     width: 250px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 50px;
     float: left;
 }
@@ -267,6 +268,7 @@
     width: 250px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 50px;
     float: right;
 }
@@ -275,8 +277,17 @@
     font-family: 'Varela Round', sans-serif;
     font-size: 1em;
    vertical-align: 500px;
-   margin-bottom: 30px;
+   margin-bottom: 40px;
+   border-left: 30px;
 }
+
+@media(max-width:640px) {
+    .story-image-left, .story-image-right{
+        width: 95%;
+        border-radius: 50px;
+     }
+ }
+
 
 /*footer*/
 
