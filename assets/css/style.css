@@ -307,11 +307,11 @@
      font-size: 1.5em;
      text-align: center;
      color:#251425;
+     font-size: 4vh;
  }
 
 .contact-form {
     clear: left;
-    background-size: cover;
     height: 700px;
     margin-bottom: 50px;
 }
@@ -334,6 +334,16 @@
     margin: 5px 0 20px 0;
     border: 1px solid #251425;
     border-radius:2px;
+}
+
+.rescue-sort {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+    background-color: #f2e3f3;
+    color: #251425;
 }
 
 .big-text {
