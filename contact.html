@@ -41,8 +41,33 @@
   <div class="row">
     <div class="col-12">
       <h1 class="title">Contact</h1>
-      <p class="question">Do you think you could rescue?<br>If so, fill in your
-      details below and let us know!</h5>
+      <div class="contact-form">
+        <form class="input-form" action="" method="POST">
+          <h2 class="question">Do you think you could rescue?<br>If so, fill in your
+            details below and let us know!</h2>
+          <label for="name">Full Name</label>
+          <input id="name" type="text" name="first_name" class="text-input" placeholder="Enter full name" required>
+          <label for="area">Area you Live</label>
+          <input id="area" type="text" name="area" class="text-input" placeholder="County/City/Town" required>
+          <label for="phone">Phone Number</label>
+          <input id="phone" type="number" name="phone" class="text-input" placeholder="Phone number" required>
+          <label for="email">Email Address</label>
+          <input id="email" type="email" name="email" class="text-input" placeholder="Email Address" required>
+          <label for="email">Email</label>
+          <input id="email" type="radio" name="contact-preference" value="email" required>
+          <label for="phone">Phone</label>
+          <input id="phone" type="radio" name="contact-preference"  value="phone">
+          <label for="either">Either</label>
+          <input id="either" type="radio" name="contact-preference" value="either">
+          <label for="experience">What experience of animals do you have? (None is fine)</label>
+          <textarea id="experience" name="experience" class="big-text" placeholder="Tell us breeds, how many years etc" required></textarea>
+
+          
+      </form>
+      </div>
+      
+        
+      </form>
     </div>
   </div>
       
