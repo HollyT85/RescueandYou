@@ -164,13 +164,17 @@
     font-family: 'Varela Round', sans-serif;
     list-style-type: none;
     color:#af69ef;
-    text-align: left;
+    text-align: justify;
     font-size: 1em;
     font-weight: bold;
+    margin-left: 0;
+    padding:0;
 }
 
 .list {
     margin-bottom: 20px;
+    margin-left: 0;
+    padding:0;
 }
 .list i {
     margin: 5px;
@@ -241,7 +245,7 @@
 }
 
 .success-stories {
-    background-color: #f2e3f3;
+    background-color: #eecff0;
 }
 
 .photo-head {
@@ -279,6 +283,7 @@
    vertical-align: 500px;
    margin-bottom: 40px;
    border-left: 30px;
+   text-align: justify;
 }
 
 @media(max-width:640px) {
@@ -288,6 +293,21 @@
      }
  }
 
+
+ /*contact*/
+
+ .contact {
+     background-color: #f2e3f3;
+     padding: 0;
+     margin: 0;
+ }
+
+ .question {
+     font-family: 'Reenie Beanie', italic;
+     font-size: 1.5em;
+     text-align: center;
+     color:#251425;
+ }
 
 /*footer*/
 
