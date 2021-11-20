@@ -241,7 +241,12 @@
 }
 
 .success-title {
+    font-family: 'Reenie Beanie', italic;
+    font-size:6em;
+    font-weight: bold;
     text-align: center;
+    position: relative;
+    color: #251425;
 }
 
 .success-stories {
@@ -296,10 +301,30 @@
 
  /*contact*/
 
+ .hero-image {
+     height: 750px;
+     width: 100%;
+     float: left;
+     margin-bottom: 10px;
+ }
+
+ @media(max-width:640px) {
+     .hero-image {
+         display: none;
+     }
+ }
+
+
  .contact {
      background-color: #f2e3f3;
      padding: 0;
      margin: 0;
+ }
+
+ .title i {
+    color: #251425;
+    font-size: .5em;
+    margin: 5px;
  }
 
  .question {
@@ -308,11 +333,17 @@
      text-align: center;
      color:#251425;
      font-size: 4vh;
+     font-weight: bold;
+ }
+
+ .question i {
+     color: #af69ef;
+     font-size: 1em;
+     margin: 5px;
  }
 
 .contact-form {
-    clear: left;
-    height: 700px;
+    height: 800px;
     margin-bottom: 50px;
 }
 
@@ -322,8 +353,9 @@
     max-width: 500px;
     position: absolute;
     padding: 30px;
-    left:10%;
+    margin: 10px 20px;
     font-family: 'Varela Round', sans-serif;
+    border: 3px solid #251425;
 }
 
 .text-input {
@@ -339,7 +371,9 @@
 .rescue-sort {
     font-family: 'Varela Round', sans-serif;
     font-size: 1em;
-    padding: 10px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
     border-radius: 10%;
     text-align: center;
     background-color: #f2e3f3;
@@ -356,6 +390,15 @@
     border-radius:2px;
 }
  
+@media(max-width:640px) {
+    .contact {
+        height:1100px;
+    }
+}
+
+
+
+
 
 /*footer*/
 
