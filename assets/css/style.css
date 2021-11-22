@@ -398,8 +398,35 @@
 
 /*Resources*/
 
+.decompress {
+    background-color: #251425;
+    padding-bottom:10px;
+    border-radius: 10px;
+}
+
+.diet {
+    background-color: #f2e3f3;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.last-enjoy {
+    background-color: #f2e3f3;
+    border-radius: 10px;
+}
+
 .resources {
     background-color: #eecff0;
+}
+
+.trait-3{
+    font-family: 'Reenie Beanie', italic;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #eecff0;
+    text-decoration: underline;
 }
 
 .trait{
@@ -421,17 +448,26 @@
     padding:0;
 }
 
+.info-3 {
+    font-family: 'Varela Round', sans-serif;
+    color:#eecff0;
+    text-align: justify;
+    font-size: 1em;
+    margin: 10px;
+    padding:0;
+}
+
 .resource-image-left {
-    width: 150px;
-    margin: -30px 10px 10px 10px;
-    border-radius: 10px;
+    width: 180px;
+    margin: -50px 10px 10px 10px;
+    border-radius: 20px;
     float: left;
 }
 
 .resource-image-right {
-    width: 150px;
-    margin: -20px 10px 10px 10px;
-    border-radius: 10px;
+    width: 180px;
+    margin: -50px 10px 10px 10px;
+    border-radius: 20px;
     float: right;
 }
 
@@ -450,7 +486,7 @@
 
 .download {
     text-decoration: underline;
-    color:#251425;
+    color:#eecff0;
 }
 
 .download:hover {
@@ -463,6 +499,20 @@
     color:#251425;
     text-align: center;
     font-size: 1em;
+    margin: 10px;
+    padding:0;
+    margin-bottom: 20px;
+}
+
+.research-img {
+    margin-top: -10px;
+}
+
+.enjoy {
+    font-family: 'Varela Round', sans-serif;
+    color:#251425;
+    text-align: center;
+    font-size: 3em;
     margin: 10px;
     padding:0;
     margin-bottom: 20px;
