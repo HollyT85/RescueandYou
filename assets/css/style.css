@@ -520,6 +520,13 @@
     margin-bottom: 20px;
 }
 
+@media(max-width:640px) {
+    .resource-image-left, .resource-image-right{
+        width: 95%;
+        border-radius: 50px;
+        margin-top:20px;
+     }
+ }
 
 /*footer*/
 
