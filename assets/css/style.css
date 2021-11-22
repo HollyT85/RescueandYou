@@ -396,7 +396,29 @@
     }
 }
 
+/*Resources*/
 
+.resources {
+    background-color: #eecff0;
+}
+
+.trait{
+font-family: 'Reenie Beanie', italic;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #251425;
+    text-decoration: underline;
+}
+
+.information {
+    font-family: 'Varela Round', sans-serif;
+    color:#251425;
+    text-align: justify;
+    font-size: 1em;
+    margin-left: 0;
+    padding:0;
+}
 
 
 
