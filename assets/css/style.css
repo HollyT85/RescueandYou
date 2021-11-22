@@ -403,9 +403,10 @@
 }
 
 .trait{
-font-family: 'Reenie Beanie', italic;
+    font-family: 'Reenie Beanie', italic;
     text-align: center;
     font-size: 3em;
+    margin-top: 20px;
     font-weight: bold;
     color: #251425;
     text-decoration: underline;
@@ -416,10 +417,56 @@ font-family: 'Reenie Beanie', italic;
     color:#251425;
     text-align: justify;
     font-size: 1em;
-    margin-left: 0;
+    margin: 10px;
     padding:0;
 }
 
+.resource-image-left {
+    width: 150px;
+    margin: -30px 10px 10px 10px;
+    border-radius: 10px;
+    float: left;
+}
+
+.resource-image-right {
+    width: 150px;
+    margin: -20px 10px 10px 10px;
+    border-radius: 10px;
+    float: right;
+}
+
+
+
+.three-three-three:hover {
+    transform: scale(5);
+    margin-left: 300px;
+}
+
+@media(max-width:640px) {
+    .three-three-three{
+        display:none;
+    }
+}
+
+.download {
+    text-decoration: underline;
+    color:#251425;
+}
+
+.download:hover {
+    text-decoration: underline;
+    color:#af69ef;
+}
+
+.info-center {
+    font-family: 'Varela Round', sans-serif;
+    color:#251425;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px;
+    padding:0;
+    margin-bottom: 20px;
+}
 
 
 /*footer*/
