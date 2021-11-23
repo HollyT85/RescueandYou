@@ -8,6 +8,7 @@ Rescue and You is a website created to help people decide whether they should re
 
 The site consists of 4 easy to navigate pages. The site is designed to be responsive on all screens and has been tested on a variety of devices. The colour scheme has 4 complementary colours, the logo is very simple and there is the use of only two fonts: Reenie Beanie & Varela Round. Font colours have been used to stand out against the colour of the background for viewing ease. 
 Visitors to the site know which page they are on through use of a change of colour on the active page.
+For ease of use (i.e less scrolling), some images have been removed for the mobile version to reduce the need to endlessly scroll.
 
 <u>Home</u> The top of the page shows 6 character traits that, after research, were considered the most important when considering rescuing an animal. The bottom shares some facts about animal rescue. This is to get people thinking about whether they can cope with the difficulties that can arise from rescuing an animal.
 
@@ -48,6 +49,8 @@ As a rescuer, I want people to have easy access to appropriate information that 
 As a rescuer, I want people to understand there are a variety of animals available for re-homing and rescue is not just for dogs and cats.<br>
 
 <b><u>Testing</u></b>
+
+The site has been tested on W3C Validator. On the index page there were a couple of unclosed tags. A lot of errors came from my images, the names of which had spaces in so I had to change these and remove the spaces. After these were completed, all pages passed through.
 
 <u>Issues and Bugs</u>
 
