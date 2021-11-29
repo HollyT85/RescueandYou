@@ -117,18 +117,30 @@
 .background {
     opacity: 30%;
     border-radius: 50%;
-    height:150px;
+    height: 150px;
     width: 150px;
     display: inline-block;
     text-align: center;
     margin: 20px;
 }
 
+@media(max-width:640px) {
+    .background {
+        opacity: 30%;
+        border-radius: 50%;
+        height: 130px;
+        width: 130px;
+        display: inline-block;
+        text-align: center;
+        margin: 20px 30px;
+
+    }
+}
+
 .description {
     font-family: 'Varela Round', sans-serif;
     color:#251425;
     font-weight: bold;
-    font-size: absolute;
     position: absolute;
     top: 50%;
     left: 50%;
