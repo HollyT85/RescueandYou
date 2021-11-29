@@ -47,7 +47,7 @@
 @media(max-width:640px) {
     #title {
         text-align: center;
-        font-size: 50px;
+        font-size: 0px;
     }
 }
 
