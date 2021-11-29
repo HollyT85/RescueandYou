@@ -78,6 +78,7 @@
 /*index.html*/
 
 /*top half*/
+
 .are-you {
     background-color: #f2e3f3;
 }
@@ -128,8 +129,8 @@
     .background {
         opacity: 30%;
         border-radius: 50%;
-        height: 130px;
-        width: 130px;
+        height: 120px;
+        width: 120px;
         display: inline-block;
         text-align: center;
         margin: 20px 30px;
