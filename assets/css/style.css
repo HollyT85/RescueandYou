@@ -1,7 +1,7 @@
 * {
     margin:0;
     padding:0;
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 .container1 {
@@ -59,7 +59,6 @@
 
 .navigation {
     background-color: #af69ef;
-    width:100%;
 }
 
 .text {
@@ -106,6 +105,7 @@
     text-align: center;
     position: relative;
     color: #251425;
+    margin-top:10px;
 }
 
 .circle-container {
@@ -156,8 +156,6 @@
 }
 
 .rat {
-    margin-left: 140px;
-    margin-top: 100px;
     border-radius: 50%;
     height: 500px;
     width: 500px;
@@ -177,14 +175,16 @@
     list-style-type: none;
     color: #251425;
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    margin-left: 10px;
 }
 
 .list {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding-left: 0;
 }
+
 .list i {
     margin: 5px;
     color: #af69ef;
@@ -193,7 +193,7 @@
 .more {
     font-family: 'Reenie Beanie', italic;
     text-align: center;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: bold;
     color:#251425;
 }
@@ -312,7 +312,7 @@
  /*contact*/
 
  .hero-image {
-     height: 750px;
+     height: 800px;
      width: 100%;
      float: left;
      margin-bottom: 10px;
@@ -328,12 +328,6 @@
  .contact {
      background-color: #f2e3f3;
 
- }
-
- .title i {
-    color: #251425;
-    font-size: .5em;
-    margin: 5px;
  }
 
  .question {
@@ -411,8 +405,7 @@
     background-color: #251425;
     border-radius: 10px;
     padding-bottom: 10px;
-    width: 98%;
-    margin-left: 15px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -420,8 +413,7 @@
     background-color: #f2e3f3;
     border-radius: 10px;
     padding-bottom: 10px;
-    width: 98%;
-    margin-left: 15px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -537,7 +529,6 @@
 
 #footer {
     background-color: #251425; 
-    max-height: 300px;
 }
 
 .box {
@@ -613,5 +604,19 @@
 @media(max-width:640px){
     .hide{
         display: none;
+    }
+}
+
+/*general responsiveness of headings*/
+
+@media(max-width:640px){
+    .title, .title-did, .success-title {
+        font-size:40px;
+    }
+}
+
+@media(max-width:640px){
+    .yes, .more, .photo-head, .trait, .trait-3 {
+        font-size:30px;
     }
 }
