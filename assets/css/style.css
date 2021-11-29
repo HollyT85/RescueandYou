@@ -47,14 +47,14 @@
 @media(max-width:640px) {
     #title {
         text-align: center;
-        font-size: 20px;
+        font-size: 50px;
     }
 }
 
 @media(max-width:640px) {
     #sub-head {
         text-align: center;
-        font-size: 10px;
+        font-size: 30px;
     }
 }
 
