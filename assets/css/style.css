@@ -20,16 +20,17 @@
 
 #title {
     font-family: 'Reenie Beanie', italic;
-    font-size:8em;
+    font-size:130px;
     font-weight: bold;
     text-align: left;
     position: relative;
     color: #f2e3f3;
 }
 
+
 #sub-head {
     font-family: 'Reenie Beanie', italic;
-    font-size: 3em;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
     position: relative;
@@ -39,16 +40,23 @@
 
 @media(max-width:640px) {
     .headimage {
-        display:none;
+        display: none;
     }
 }
 
 @media(max-width:640px) {
     #title {
         text-align: center;
+        font-size: 50px;
     }
 }
 
+@media(max-width:640px) {
+    #sub-head {
+        text-align: center;
+        font-size: 30px;
+    }
+}
 
 /*navbar*/
 
@@ -67,7 +75,6 @@
 .active, .text:hover {
     color:#251425;
 }
-
 
 
 
@@ -138,9 +145,8 @@
 /*bottom half */
 
 .did-you-know {
-    background-color: #eecff0;;
-    padding: 0;
-    margin: 0;
+    background-color: #eecff0;
+    border-top: solid 2px #251425;
 }
 
 .rat {
@@ -163,7 +169,7 @@
 .did-you {
     font-family: 'Varela Round', sans-serif;
     list-style-type: none;
-    color:#af69ef;
+    color: #251425;
     text-align: justify;
     font-size: 1em;
     font-weight: bold;
@@ -178,7 +184,7 @@
 }
 .list i {
     margin: 5px;
-    color: #251425;
+    color: #af69ef;
 }
 
 .more {
@@ -383,7 +389,7 @@
 
 .big-text {
     background: transparent;
-    color: #fafafa;
+    color: #251425;
     width: 100%;
     height: 100px;
     margin: 5px 0 20px 0;
@@ -471,19 +477,6 @@
     margin: -50px 10px 10px 10px;
     border-radius: 20px;
     float: right;
-}
-
-
-
-.three-three-three:hover {
-    transform: scale(5);
-    margin-left: 300px;
-}
-
-@media(max-width:640px) {
-    .three-three-three{
-        display:none;
-    }
 }
 
 .download {
