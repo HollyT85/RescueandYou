@@ -49,7 +49,7 @@
     }
 }
 
-@media(max-width:640px) {
+@media(max-width:800px) {
     #title {
         text-align: center;
     }
@@ -133,8 +133,9 @@
         width: 120px;
         display: inline-block;
         text-align: center;
-        margin: 20px 30px;
-
+        margin-top: 10px;
+        margin-left:25px;
+        margin-right: 25px;
     }
 }
 
@@ -220,7 +221,7 @@
     color: #af69ef;
 }
 
-@media(max-width:640px) {
+@media(max-width:800px) {
     .dog, .rat, .break{
         display: none;
     }
