@@ -117,8 +117,8 @@
 .background {
     opacity: 30%;
     border-radius: 50%;
-    height:12vw;
-    width: 12vw;
+    height:150px;
+    width: 150px;
     display: inline-block;
     text-align: center;
     margin: 20px;
@@ -128,6 +128,7 @@
     font-family: 'Varela Round', sans-serif;
     color:#251425;
     font-weight: bold;
+    font-size: absolute;
     position: absolute;
     top: 50%;
     left: 50%;
