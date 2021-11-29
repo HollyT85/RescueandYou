@@ -17,15 +17,15 @@
 
 .headimage {
     float: left;
-    width:12vw;
-    height:12vw;
+    width:150px;
+    height:150px;
     margin-top: 40px;
     margin-right: 20px;
 }
 
 #title {
     font-family: 'Reenie Beanie', italic;
-    font-size:130px;
+    font-size:8vw;
     font-weight: bold;
     text-align: left;
     position: relative;
@@ -35,7 +35,7 @@
 
 #sub-head {
     font-family: 'Reenie Beanie', italic;
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
     position: relative;
@@ -52,14 +52,6 @@
 @media(max-width:640px) {
     #title {
         text-align: center;
-        font-size: 50px;
-    }
-}
-
-@media(max-width:640px) {
-    #sub-head {
-        text-align: center;
-        font-size: 30px;
     }
 }
 
@@ -108,7 +100,7 @@
 
 .title {
     font-family: 'Reenie Beanie', italic;
-    font-size:6em;
+    font-size:6vw;
     font-weight: bold;
     text-align: center;
     position: relative;
@@ -149,7 +141,7 @@
 .yes {
     font-family: 'Reenie Beanie', italic;
     text-align: center;
-    font-size: 3em;
+    font-size: 4vw;
     font-weight: bold;
     color: #251425;
 }
@@ -171,7 +163,7 @@
 
 .title-did {
     font-family: 'Reenie Beanie', italic;
-    font-size:6em;
+    font-size:6vw;
     font-weight: bold;
     text-align: center;
     color: #251425;
@@ -183,9 +175,9 @@
     list-style-type: none;
     color: #251425;
     text-align: justify;
-    font-size: 1em;
+    font-size: 1.5vw;
     font-weight: bold;
-    margin-left: 0;
+    margin-left: 10px;
     padding:0;
 }
 
@@ -202,7 +194,7 @@
 .more {
     font-family: 'Reenie Beanie', italic;
     text-align: center;
-    font-size: 3em;
+    font-size: 4vw;
     font-weight: bold;
     color:#251425;
 }
@@ -261,7 +253,7 @@
 
 .success-title {
     font-family: 'Reenie Beanie', italic;
-    font-size:6em;
+    font-size:6vw;
     font-weight: bold;
     text-align: center;
     position: relative;
