@@ -2,9 +2,11 @@
 
 <u><b>Introduction</b></u>
 
-Rescue and You is a website created to help people decide whether they should rescue an animal or not. It advertises three rescues (one samll animal rescue, one breed specific rescue and one overseas rescue), to show people that there are many animals available for adoption of all species and breeds. 
+Rescue and You is a website created to help people decide whether they should rescue an animal or not. It advertises three rescues (one small animal rescue, one breed specific rescue and one overseas rescue), to show people that there are many animals available for adoption of all species and breeds. 
 
 <u><b>Site Overview & UX</b></u>
+
+![responsivedesign](assets/images/readme/responsivedesign.jpg)
 
 The site consists of 4 easy to navigate pages. The site is designed to be responsive on all screens and has been tested on a variety of devices. The colour scheme has 4 complementary colours, the logo is very simple and there is the use of only two fonts: Reenie Beanie & Varela Round. Font colours have been used to stand out against the colour of the background for viewing ease. 
 Visitors to the site know which page they are on through use of a change of colour on the active page.
@@ -24,7 +26,15 @@ The whole site is simply designed and uses real-life rescue animal images on eve
 
 <u><b>Wireframes</b></u>
 
-I created my Wireframes using Balsamiq. They can be viewed here.
+I created my Wireframes using Balsamiq.
+
+<u>Desktop</u>
+
+![desktopwireframe](assets/images/readme/desktop.png)
+
+<u>Mobile</u>
+
+![mobilewireframe](assets/images/readme/mobile.png)
 
 <u><b>User Stories</b></u>
 
@@ -48,9 +58,37 @@ As a rescuer, I’d like people to see some facts about rescuing animals.<br>
 As a rescuer, I want people to have easy access to appropriate information that will help them make a decision as to whether they can handle a rescue animal.<br>
 As a rescuer, I want people to understand there are a variety of animals available for re-homing and rescue is not just for dogs and cats.<br>
 
-<b><u>Testing</u></b>
+<b><u>Testing & Code Validation</u></b>
 
 The site has been tested on W3C Validator. On the index page there were a couple of unclosed tags. A lot of errors came from my images, the names of which had spaces in so I had to change these and remove the spaces. After these were completed, all pages passed through.
+
+<u>CSS</u>
+
+![w3ccss](assets/images/readme/w3ccss.jpg)
+
+<u>Home</u>
+
+![w3chome](assets/images/readme/w3chome.jpg)
+
+<u>Stories</u>
+
+![w3cstories](assets/images/readme/w3cstories.jpg)
+
+<u>Resources</u>
+
+![w3cresources](assets/images/readme/w3cresources.jpg)
+
+<u>Contact</u>
+
+![w3ccontact](assets/images/readme/w3ccontact.jpg)
+
+The site was also tested on GTMetrix for speed. The results were positive:
+
+![speedtest](assets/images/readme/gtmetrix.jpg)
+
+Whilst testing, I made the decision to change some design features; primarily removing some images on mobile view and ensuring there was not a lot of scrolling on smaller screens. I also added the balloons to the resource and story pages to ensure each separate element stood out other than via their heading.
+
+Form validation was also tested and will not be submitted without all areas being answered.
 
 <u>Issues and Bugs</u>
 
@@ -60,6 +98,49 @@ I had difficulty with getting font awesome to work for some time: I discovered I
 
 In the footer, I had difficulty with getting everything aligned correctly over the pictures; this was one of the biggest challenges I faced. I tried a variety of ways including adding the file in CSS instead of HTML but I fixed the problem via some research and experimentation. Whilst I had it working in CSS, I was unhappy using this method as there is no option for alt text for accessibility when it is done this way.
 
+Once I had published my website, some of my images wouldn't load; the filepath was not correct for some images. Once this was fixed, everything worked as it should.
+
 <b><u>Deployment</u></b>
 
-<b><u>Code Validation</u></b>
+The site has been deployed via GitPages and can be found [here](https://hollyt85.github.io/RescueandYou/index.html).
+
+<b><u>Technology</u></b>
+
+<u>Languages Used</u>
+
+CSS & HTML
+Some Javascript from Bootstrap
+
+<u>Tools</u>
+
+[GitHub](https://github.com/) for buiding the webpage.
+
+[GitHubPages](https://pages.github.com/) for webpage deployment.
+
+[Bootstrap](https://getbootstrap.com/) for code for elements/
+
+[FontAwesome](https://fontawesome.com/) for icons used.
+
+[GoogleFonts](https://fonts.google.com/) for the fonts used in the project.
+
+[Balsamiq](https://balsamiq.com/) to create wireframes.
+
+[GIMPSoftware](https://www.gimp.org/) to edit photos.
+
+[Paint](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) for pasting screenshots.
+
+[GTMetrix](https://gtmetrix.com/) to check site speed.
+
+[W3C](https://www.w3.org/) for code validation and also some hints and tips.
+
+[AmIResponsive](http://ami.responsivedesign.is/#) to check responsivity of the site.
+
+<b><u>Media</u></b>
+
+Most images on the site were taken by myself. The two images which were not came from [Pexels](https://www.pexels.com/royalty-free-images/).
+
+I also designed my own logo.
+
+<b><u>Acknowledgements</u></b>
+
+With thanks to Felipe Alarcon (mentor) and Stephen (5P lead; Slack forum) for their patience and advice.
