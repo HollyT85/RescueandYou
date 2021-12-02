@@ -32,21 +32,35 @@ I created my Wireframes using Balsamiq.
 
 ![desktopwireframe](assets/images/readme/desktop.png)
 
-<u>Mobile</u>
+<u>Mobile and Tablet</u>
 
 ![mobilewireframe](assets/images/readme/mobile.png)
+
+I have designed the tablet site to look the same as the mobile site.
 
 <u><b>User Stories</b></u>
 
 <u>Users</u>
 
 As a user, I want to know if rescuing an animal is right for me.<br>
+![userstory1](assets/images/readme/userstory1.png)
+
 As a user, I want to know how rescuing an animal can make a difference with the use of both pictures and text.<br>
+![userstory2](assets/images/readme/userstory2.png)
+
 As a user, I want to be able to contact some rescue centres.<br>
+![userstory3](assets/images/readme/userstory3.png)
+
 As a user, I want to know some of the problems which may occur when rescuing an animal and how to help an animal settle in.<br>
+![userstory4](assets/images/readme/userstory4.png)
+
 As a user, I’d like to see some facts about rescuing animals.<br>
+![userstory5](assets/images/readme/userstory5.png)
+
 As a user, I want to see information about how long it takes rescue animals to settle and how I can help them to do this.<br>
-As a user, I want to understand what animals are available to rescue.
+![userstory6](assets/images/readme/userstory6.png)
+
+As a user, I want to understand what animals are available to rescue. (Screenshots above show this so I have not duplicated)
 
 <u>Rescue Centres</u>
 
@@ -86,9 +100,17 @@ The site was also tested on GTMetrix for speed. The results were positive:
 
 ![speedtest](assets/images/readme/gtmetrix.jpg)
 
-Whilst testing, I made the decision to change some design features; primarily removing some images on mobile view and ensuring there was not a lot of scrolling on smaller screens. I also added the balloons to the resource and story pages to ensure each separate element stood out other than via their heading.
+Whilst testing, I made the decision to change some design features; primarily removing some images on mobile view and ensuring there was not a lot of scrolling on smaller screens. I also added the balloons to the resource and story pages to ensure each separate element stood out other than just via their heading.
 
-Form validation was also tested and will not be submitted without all areas being answered.
+Getting the layout correct for mobile took quite a lot of testing; I didn't want a site which was long and took a lot of effort to look through; small tweaks were made multiple times to ensure this wouldn't happen to any user.
+
+During initial testing; some writing did not pass through the contrast checker; this was changed to ensure acessibility for all users.
+
+![contrast](assets/images/readme/contrast1.jpg)
+
+![contrast](assets/images/readme/contrast2.jpg)
+
+Form validation was also tested and the form will not be submitted without all areas being answered.
 
 <u>Issues and Bugs</u>
 
@@ -134,6 +156,8 @@ Some Javascript from Bootstrap
 [W3C](https://www.w3.org/) for code validation and also some hints and tips.
 
 [AmIResponsive](http://ami.responsivedesign.is/#) to check responsivity of the site.
+
+[WebAim](https://webaim.org/resources/contrastchecker/) for contrast checking
 
 <b><u>Media</u></b>
 
