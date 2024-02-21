@@ -175,6 +175,13 @@
     width: 500px;
 }
 
+.chinchilla{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
 .title-did {
     font-family: 'Reenie Beanie', italic;
     font-size:6vw;
@@ -536,7 +543,7 @@
         width: 95%;
         border-radius: 50px;
         margin-top:15px;
-     }
+    }
  }
 
 /*footer*/
@@ -632,5 +639,15 @@
 @media(max-width:640px){
     .yes, .more, .photo-head, .trait, .trait-3 {
         font-size:30px;
+    }
+}
+
+@media(max-width:640px){
+    .chinchilla {
+
+        border-radius: 50%;
+        max-width: 80%;
+        align-items: center;
+        height:fit-content;
     }
 }
